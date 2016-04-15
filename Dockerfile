@@ -1,2 +1,3 @@
 FROM scratch
-CMD []
+ADD /usr/bin /
+CMD [/usr/bin/bash]
